@@ -53,9 +53,21 @@ Ou seja: achar o aluno pelo CPF custa pouco mais de uma comparação na tabela h
 
 > Se o `alunos.csv` for de uma versão anterior (sem a coluna `cpf`), o programa detecta isso na abertura, sorteia um CPF válido e único para cada aluno e regrava o arquivo automaticamente.
 
+## Vídeo de apresentação
+
+- Vídeo do João Marcos apresentado o projeto:
+[Assista no YouTube](https://youtu.be/oMpkMEHiAoY)
+
+- Vídeo da Ana Luiza apresentado o projeto:
+[Assista no YouTube](https://youtu.be/)
+
+
 ## Capturas de tela
 
-*(adicionar aqui prints do menu rodando, de uma busca por matrícula e do relatório de blocos/índice)*
+![Menu](assets/menu.png)
+![Busca por matrícula](assets/buscamatricula.png)
+![Busca por CPF](assets/buscaporcpf.png)
+![Informações do índice/blocos/hash](assets/informacoes.png)
 
 ## Conclusões
 
