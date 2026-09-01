@@ -1,14 +1,10 @@
 # G31_Busca_EDA2-2026.2
 Repositório dedicado ao Trabalho 1 de Estruturas de Dados 2 do 2º semestre de 2026.
 
-## Vídeo de apresentação
-
-[Assistir no YouTube](https://youtu.be/T9GmfypwAyQ)
-
 ## Alunos  
 | Matrícula | Nome |  
 |-----------------------|---------------------|  
-| 2X/XXXXXXX | ANA LUISA VIERIA NUNES |  
+| 23/2000660 | ANA LUISA VIEIRA NUNES |  
 | 22/2006113 | JOÃO MARCOS MORAES DE ANDRADE |  
 
 ## Descrição do projeto
@@ -62,8 +58,8 @@ Ou seja: achar o aluno pelo CPF custa pouco mais de uma comparação na tabela h
 - Vídeo do João Marcos apresentado o projeto:
 [Assista no YouTube](https://youtu.be/oMpkMEHiAoY)
 
-- Vídeo da Ana Luiza apresentado o projeto:
-[Assista no YouTube](https://youtu.be/)
+- Vídeo da Ana Luisa apresentado o projeto:
+[Assista no YouTube](https://youtu.be/T9GmfypwAyQ)
 
 
 ## Capturas de tela
