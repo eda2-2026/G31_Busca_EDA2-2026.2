@@ -71,7 +71,13 @@ Ou seja: achar o aluno pelo CPF custa pouco mais de uma comparação na tabela h
 
 ## Conclusões
 
-*(escrever depois de finalizado: o que funcionou bem, dificuldades encontradas, comparação de desempenho entre busca sequencial pura, busca indexada e hash)*
+O trabalho uniu três técnicas de Estruturas de Dados: busca sequencial indexada (kindex + busca binária + busca sequencial em blocos), espaço reservado nos blocos para inserção sem reorganização total, e tabela hash com encadeamento para a chave secundária (CPF).
+ 
+O que funcionou melhor foi a diferença de escala entre as técnicas, visível na comparação de desempenho: na base de 1.000.000 de alunos, uma busca sequencial pura levaria em média 500.000 comparações; a busca indexada resolve em ~35; e a busca por CPF via hash, em pouco mais de 1.
+ 
+Principais dificuldades: detectar o tamanho de bloco do disco de forma confiável no Windows (sem `os.statvfs`, foi preciso usar `ctypes`), manter o kindex atualizado após inserções/remoções, calibrar os fatores de espaço reservado (30%) e de carga do hash (75%), e gerar CPFs válidos com dígito verificador correto.
+ 
+No fim, o sistema ficou funcional de ponta a ponta: cadastro, busca por matrícula e por CPF, remoção e simulação de entrada de novos semestres, tudo persistido em CSV.
 
 ## Referências
 
